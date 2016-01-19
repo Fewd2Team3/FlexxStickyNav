@@ -1,0 +1,111 @@
+/*---------Reset all elements----------*/
+
+
+/*-------------Remove all paddings, margins, borders----------*/
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+dir,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+menu,
+nav,
+section,
+main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*------------------------------------------------------------*/
+
+
+/*-----------------Define block display for old browsers-----*/
+
+article,
+aside,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+/*------------------------------------------------------------*/
+
+
+/*--------------------reset links, lists, and tables------------------*/
+
+a,
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+ul,
+ol,
+menu,
+dir {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*-----------------reset form elements and buttons--------------*/
+
+form,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+optgroup,
+option {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}

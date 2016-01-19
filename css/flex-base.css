@@ -1,0 +1,185 @@
+/*-------Type Styles-------*/
+
+@font-face {
+    font-family: Raleway-reg;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway-bold;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: Raleway-extra-bold;
+    src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Raleway-light;
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+body {
+    font-family: Raleway-reg, sans-serif;
+    font-size: 1em;
+    line-height: 1.3em;
+    color: #636363;
+}
+
+
+/*-------HEADINGS------*/
+
+h1,
+h2 {
+    color: #137d37;
+    padding: 5px;
+}
+
+h1 {
+    font-family: Raleway-extra-bold;
+    font-size: 1.5em;
+    line-height: 1.65em;
+}
+
+h2 {
+    font-family: Raleway-bold;
+    font-size: 1.35em;
+    line-height: 1.45em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway-bold;
+    color: #555555;
+    padding: 3px;
+}
+
+h3 {
+    font-size: 1.15em;
+    line-height: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1.15em;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1.15em;
+}
+
+h5 {
+    font-size: .95em;
+    line-height: 1em;
+}
+
+h6 {
+    font-size: .85em;
+    line-height: .95em
+}
+
+
+/*-------BLOCK LEVEL ELEMENTS-------*/
+
+p {
+    margin: 2px;
+    padding: 5px 2px;
+    color: #707070;
+}
+
+address,
+blockquote {
+    font-family: Raleway-light;
+    font-size: .95em;
+    line-height: 1.05em;
+    margin-left: 10px;
+}
+
+
+/*-------INLINE ELEMENTS-------*/
+
+code {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+strong,
+b {
+    font-family: Raleway-bold;
+}
+
+abbr,
+acronym {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+big {
+    font-size: 1.25em;
+}
+
+small {
+    font-size: .80em
+}
+
+
+/*-------LINKS-------*/
+
+a {
+    color: #137d37;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #137d37;
+}
+
+a:active {
+    color: #555555;
+}
+
+
+/*-------TRANSFORMATION & HELPER CLASSES-------*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.left {
+    float: left;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.right {
+    float: right;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.flex-img {
+    width: 100%;
+    height: auto;
+}

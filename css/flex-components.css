@@ -1,0 +1,99 @@
+/* ============================================================
+DROP DOWN MENU
+============================================================ */
+
+nav {
+    background: #636363;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav ul.drop-down {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    /*--------can adjust text alignment------*/
+}
+
+nav ul.drop-down li {
+    display: inline;
+    padding: 10px 16px;
+    position: relative;
+}
+
+nav ul.drop-down li a {
+    color: white;
+}
+
+nav ul.drop-down li ul {
+    display: none;
+}
+
+nav ul.drop-down li:hover ul {
+    display: block;
+    position: absolute;
+    left: 3px;
+    background: #636363;
+    width: 100%;
+    min-width: 100px;
+    z-index: 99;
+}
+
+nav ul.drop-down li ul li {
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+nav ul.drop-down li ul li a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ============================================================
+THUMBNAILS
+============================================================ */
+
+.thumb {
+    width: 200px;
+    -webkit-clip-path: circle(60px at center);
+    -moz-clip-path: circle(60px at center);
+    -o-clip-path: circle(60px at center);
+    -ms-clip-path: circle(60px at center);
+}
+
+.thumb:hover {
+    -webkit-clip-path: circle(70px at center);
+    -moz-clip-path: circle(70px at center);
+    -o-clip-path: circle(70px at center);
+    -ms-clip-path: circle(70px at center);
+}
+
+
+/* ============================================================
+Sticky Nav
+============================================================ */
+
+.sticky-nav {
+    position: relative;
+    z-index: 900;
+}
+
+.sticky-nav-scroll {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
